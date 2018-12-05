@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#mainAll{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+	list-style: none;
+}
+/**
+设置顶部样式
+ */
+#mainAllTop{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #336666;
+}
+/**
+设置logo样式
+ */
+#mainAllTopImg{
+    width: 450px;
+    height: 50px;
+}
+#mainAllTopImg img{
+    width: 100px;
+    height: 50px;
+}
+/**
+设置时间显示的样式
+ */
+#mainAllTopTime{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+#mainAllTopEsc{
+	width: 150px;
+    height: 50px;
+    line-height: 50px;
+  
+    font-size: 15px;
+}
+a{
+	text-decoration: none;
+	color: aliceblue;
+}
+#mainAllTopEsc a:hover{
+	cursor: pointer;
+}
+/**
+设置中间样式
+ */
+#mainAllTopWec{
+    flex: 1;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+/**
+设置中间样式
+ */
+#mianAllBottom{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+/**
+ * 设置左边的样式
+ */
+#mainAllUl{
+	flex: 0.1;
+	height:100%;
+	background-color: #339999;
+	display: flex;
+	flex-direction: column;
+}
+/**
+ * 管理员操作
+ */
+.uls{
+	display: flex;
+	flex-direction: column;
+}
+.lis{
+	display: flex;
+	flex-direction: column;
+}
+.infors{
+	height: 30px;
+	width: 200px;
+	color: bisque;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 23px;
+	display: flex;
+    align-items: center;
+}
+
+/**
+ * 具体操作
+ */
+.infors_conter{
+	width: 170px;
+	flex: 1;
+	color: cornsilk;
+	font-size: 15px;
+	padding-left: 42px;
+}
+.infors_conter div{
+	margin-bottom: 7px;
+}
+.infors:hover{
+	cursor: pointer;
+}
+.infors_conter div a:hover{
+	cursor: pointer;
+	font-size: 17px;
+}
+#mainAllConter{
+    flex: 0.9;
+}
+#mainAllConter iframe{
+	height: 600px;
+    width: 1127px;
+	justify-content: center;
+	align-items: center;
+}
+.infors_li{
+    width: 20px;
+    height: 20px;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.infors_li img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

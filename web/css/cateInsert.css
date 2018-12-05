@@ -1,0 +1,21 @@
+#cateInsert{
+    height: 400px;
+    width: 400px;
+    border: 1px solid #8b8e92;
+    background-color: #606d5b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #635c5c ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 74px;
+    flex-direction: column;
+    color: white;
+}
+th,td{
+    padding-bottom: 17px;
+}
+#tables{
+    color: white;
+}

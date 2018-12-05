@@ -1,0 +1,47 @@
+/**
+设置table属性
+ */
+#insertTbale{
+    margin: 0 auto;
+}
+#insertTbale td{
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+/**
+设置td属性属性
+ */
+.name{
+    width: 100px;
+    color: #269abc;
+    font-family: "Adobe 仿宋 Std R";
+}
+.input{
+    width: 200px;
+}
+.waring{
+    width: 200px;
+    color: brown;
+}
+#imgs{
+    width: 150px;
+    height: 100px;
+}
+#imgsdiv{
+    width: 150px;
+    height: 100px;
+}
+#addShops{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #269abc;
+    border-radius: 5px;
+}
+#addShops:hover{
+    cursor: pointer;
+    background-color: #2b542c;
+}
